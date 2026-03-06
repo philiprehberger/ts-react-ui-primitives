@@ -1,0 +1,55 @@
+{
+  "name": "@philiprehberger/react-ui-primitives",
+  "version": "0.1.0",
+  "description": "Lightweight React UI primitives - Button, Alert, and more",
+  "type": "module",
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "exports": {
+    ".": {
+      "import": {
+        "types": "./dist/index.d.ts",
+        "default": "./dist/index.js"
+      },
+      "require": {
+        "types": "./dist/index.d.cts",
+        "default": "./dist/index.cjs"
+      }
+    }
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "typecheck": "tsc --noEmit",
+    "prepublishOnly": "npm run build"
+  },
+  "peerDependencies": {
+    "react": ">=18.0.0",
+    "clsx": ">=2.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "clsx": "^2.1.0",
+    "react": "^19.0.0",
+    "tsup": "^8.0.0",
+    "typescript": "^5.0.0"
+  },
+  "keywords": [
+    "react",
+    "ui",
+    "button",
+    "alert",
+    "components",
+    "primitives"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/philiprehberger/react-ui-primitives"
+  },
+  "sideEffects": false
+}
