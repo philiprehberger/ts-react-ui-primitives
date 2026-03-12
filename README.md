@@ -1,11 +1,11 @@
-# @philiprehberger/ts-react-ui-primitives
+# @philiprehberger/react-ui-primitives
 
 Lightweight React UI primitives with Tailwind CSS styling.
 
 ## Installation
 
 ```bash
-npm install @philiprehberger/ts-react-ui-primitives clsx
+npm install @philiprehberger/react-ui-primitives clsx
 ```
 
 ## Components
@@ -15,7 +15,7 @@ npm install @philiprehberger/ts-react-ui-primitives clsx
 Multi-variant button with loading state.
 
 ```tsx
-import { Button } from '@philiprehberger/ts-react-ui-primitives';
+import { Button } from '@philiprehberger/react-ui-primitives';
 
 <Button variant="primary" onClick={handleClick}>Save</Button>
 <Button variant="danger" loading>Deleting...</Button>
@@ -28,7 +28,7 @@ Variants: `primary`, `success`, `danger`, `secondary`
 Alert banner with type-based styling and optional action button.
 
 ```tsx
-import { Alert } from '@philiprehberger/ts-react-ui-primitives';
+import { Alert } from '@philiprehberger/react-ui-primitives';
 
 <Alert type="success" message="Changes saved successfully" />
 <Alert type="error" message="Something went wrong" onAction={retry} actionText="Retry" />
