@@ -1,6 +1,6 @@
 # @philiprehberger/react-ui-primitives
 
-[![CI](https://github.com/philiprehberger/react-ui-primitives/actions/workflows/publish.yml/badge.svg)](https://github.com/philiprehberger/react-ui-primitives/actions/workflows/publish.yml)
+[![CI](https://github.com/philiprehberger/react-ui-primitives/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/react-ui-primitives/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/react-ui-primitives.svg)](https://www.npmjs.com/package/@philiprehberger/react-ui-primitives)
 [![License](https://img.shields.io/github/license/philiprehberger/react-ui-primitives)](LICENSE)
 
@@ -16,7 +16,7 @@ npm install @philiprehberger/react-ui-primitives clsx
 
 ### `Button`
 
-Multi-variant button with loading state.
+Multi-variant button with loading state
 
 ```tsx
 import { Button } from '@philiprehberger/react-ui-primitives';
