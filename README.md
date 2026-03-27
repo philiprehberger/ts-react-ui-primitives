@@ -3,6 +3,7 @@
 [![CI](https://github.com/philiprehberger/ts-react-ui-primitives/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-react-ui-primitives/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/react-ui-primitives.svg)](https://www.npmjs.com/package/@philiprehberger/react-ui-primitives)
 [![License](https://img.shields.io/github/license/philiprehberger/ts-react-ui-primitives)](LICENSE)
+[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
 
 Lightweight React UI primitives with Tailwind CSS styling
 
