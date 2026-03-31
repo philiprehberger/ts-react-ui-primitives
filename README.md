@@ -1,9 +1,8 @@
 # @philiprehberger/react-ui-primitives
 
-[![CI](https://github.com/philiprehberger/ts-react-ui-primitives/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/ts-react-ui-primitives/actions/workflows/ci.yml)
+[![CI](https://github.com/philiprehberger/react-ui-primitives/actions/workflows/ci.yml/badge.svg)](https://github.com/philiprehberger/react-ui-primitives/actions/workflows/ci.yml)
 [![npm version](https://img.shields.io/npm/v/@philiprehberger/react-ui-primitives.svg)](https://www.npmjs.com/package/@philiprehberger/react-ui-primitives)
-[![License](https://img.shields.io/github/license/philiprehberger/ts-react-ui-primitives)](LICENSE)
-[![Sponsor](https://img.shields.io/badge/sponsor-GitHub%20Sponsors-ec6cb9)](https://github.com/sponsors/philiprehberger)
+[![Last updated](https://img.shields.io/github/last-commit/philiprehberger/react-ui-primitives)](https://github.com/philiprehberger/react-ui-primitives/commits/main)
 
 Lightweight React UI primitives with Tailwind CSS styling
 
@@ -60,6 +59,24 @@ npm run build
 npm test
 ```
 
+## Support
+
+If you find this project useful:
+
+⭐ [Star the repo](https://github.com/philiprehberger/react-ui-primitives)
+
+🐛 [Report issues](https://github.com/philiprehberger/react-ui-primitives/issues?q=is%3Aissue+is%3Aopen+label%3Abug)
+
+💡 [Suggest features](https://github.com/philiprehberger/react-ui-primitives/issues?q=is%3Aissue+is%3Aopen+label%3Aenhancement)
+
+❤️ [Sponsor development](https://github.com/sponsors/philiprehberger)
+
+🌐 [All Open Source Projects](https://philiprehberger.com/open-source-packages)
+
+💻 [GitHub Profile](https://github.com/philiprehberger)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/philiprehberger)
+
 ## License
 
-MIT
+[MIT](LICENSE)
