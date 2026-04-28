@@ -40,16 +40,46 @@ import { Alert } from '@philiprehberger/react-ui-primitives';
 
 Types: `error`, `success`, `warning`, `info`
 
+### `Spinner`
+
+Inline loading spinner with three sizes and an `aria-live="polite"` label.
+
+```tsx
+import { Spinner } from '@philiprehberger/react-ui-primitives';
+
+<Spinner size="sm" label="Saving" />
+<Spinner size="md" />
+<Spinner size="lg" />
+```
+
+### `Badge`
+
+Color-variant pill badge sharing the Button palette.
+
+```tsx
+import { Badge } from '@philiprehberger/react-ui-primitives';
+
+<Badge variant="success">Active</Badge>
+<Badge variant="warning">Pending</Badge>
+<Badge variant="danger">Error</Badge>
+```
+
 ## API
 
 | Export | Type | Description |
 |--------|------|-------------|
 | `Button` | Component | Multi-variant button with loading state and hover text |
 | `Alert` | Component | Alert banner with type-based styling and optional action button |
+| `Spinner` | Component | Loading spinner (sizes: `sm`, `md`, `lg`) with sr-only label |
+| `Badge` | Component | Pill badge with color variants |
 | `ButtonProps` | Type | Props: `variant?`, `loading?`, `hoverText?`, plus native button attrs |
 | `ButtonVariant` | Type | `'primary' \| 'success' \| 'danger' \| 'secondary'` |
 | `AlertProps` | Type | Props: `type`, `message`, `onAction?`, `actionText?`, `className?` |
 | `AlertType` | Type | `'error' \| 'success' \| 'warning' \| 'info'` |
+| `SpinnerProps` | Type | Props: `size?`, `label?`, plus native div attrs |
+| `SpinnerSize` | Type | `'sm' \| 'md' \| 'lg'` |
+| `BadgeProps` | Type | Props: `variant?`, plus native span attrs |
+| `BadgeVariant` | Type | `'primary' \| 'success' \| 'danger' \| 'warning' \| 'secondary'` |
 
 ## Development
 

@@ -1,5 +1,10 @@
 # Changelog
 
+## 0.2.0
+
+- Add `Spinner` primitive (3 sizes, `sr-only` accessibility label)
+- Add `Badge` primitive with the same color palette as `Button`
+
 ## 0.1.8
 
 - Fix README GitHub URLs to use correct repo name (ts-react-ui-primitives)

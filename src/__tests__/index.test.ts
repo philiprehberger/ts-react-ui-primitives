@@ -11,4 +11,12 @@ describe('react-ui-primitives', async () => {
   it('exports Alert as a function', () => {
     assert.ok(typeof mod.Alert === 'function');
   });
+
+  it('exports Spinner as a function', () => {
+    assert.ok(typeof mod.Spinner === 'function');
+  });
+
+  it('exports Badge as a function', () => {
+    assert.ok(typeof mod.Badge === 'function');
+  });
 });
